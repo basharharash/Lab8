@@ -55,7 +55,7 @@ public class CustomList extends ArrayAdapter<City> {
 
     //Implement has city, delete city, and count cities
     public boolean hasCity(City city){
-        //return cities.contains(city);
+        return cities.contains(city);
     }
 
 
